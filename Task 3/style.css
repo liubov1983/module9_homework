@@ -1,0 +1,31 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.input {
+    padding: 8px 8px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.button {
+    padding: 8px 8px;
+    text-transform: uppercase;
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+}
+
+.result {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}

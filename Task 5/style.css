@@ -1,0 +1,40 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.input {
+    margin-top: 5px;
+    margin-bottom: 15px;
+    padding: 8px 8px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.button {
+    margin-top: 5px;
+    padding: 8px 8px;
+    text-transform: uppercase;
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+}
+
+.result {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+}
